@@ -8,5 +8,10 @@ class WebPageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_page)
+
+        var webView = findViewById<WebView>(R.id.webView)
+        webView.loadUrl(intent.getStringExtra("url")!!)
+
+
     }
 }
