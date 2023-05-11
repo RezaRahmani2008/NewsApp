@@ -1,4 +1,8 @@
 package Model
 
-class Source {
-}
+class Source (
+    val id: String,
+    val name: String
+    )
+
+
