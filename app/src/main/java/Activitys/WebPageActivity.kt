@@ -2,6 +2,7 @@ package Activitys
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.webkit.WebView
 import com.example.newsapp.R
 
 class WebPageActivity : AppCompatActivity() {
